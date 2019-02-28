@@ -1,0 +1,212 @@
+---
+title: "Uso de <i>Shiny</i> apps como apoyo para la enseñanza de la estadística Bayesiana"
+subtitle: "SIME 2019"
+author: "Andrés Arguedas, Luis Diego Quirós, Marcela Alfaro Córdoba"
+date: "1/2/2019"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-image: url(https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+---
+class: left, top
+
+# Índice
+
+## 1. Introducción
+
+--
+
+## 2. Experiencia en el aula
+
+--
+
+## 3. Demostración de aplicaciones
+
+--
+
+## 4. Conclusiones y recomendaciones
+
+---
+class: inverse, center, middle
+
+# 1. Introducción
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png)
+background-size: 100px
+background-position: 90% 8%
+class: left, top
+
+# ¿Qué es R?
+
+- R es un lenguaje de programación de acceso libre y de código abierto, ampliamente usado en estadística y ciencia de datos, con miles de "paquetes" libres que extienden su uso en formas distintas y variadas<sup>*</sup>
+
+- Puede ser usado en una gran variedad de sistemas operativos y computadoras, lo cual, junto con el hecho de ser software de código abierto, lo hace ampliamente extensible y permite su fácil empleo y publicación de resultados y visualizaciones
+
+.footnote[
+\* Está presentación está hecha en R, por ejemplo
+]
+
+---
+background-image: url(https://stevenmortimer.com/blog/tips-for-making-professional-shiny-apps-with-r/shiny-hex.png)
+background-size: 100px
+background-position: 50% 70%
+class: left, top
+
+# ¿Qué es un *Shiny* app?
+
+- Un *Shiny App* es una aplicación creada mediante la librería [`Shiny`](https://shiny.rstudio.com) de R.
+
+--
+
+- Esta librería permite, mediante scripts y comandos de R, crear aplicaciones interactivas, las cuales pueden ser publicadas en línea y utilizadas por otras personas.
+
+--
+
+- Su uso en el aula, según Doi et al <sup>1</sup>, se torna útil ya que brinda una presentación más fluida y dinámica con respecto al uso de gráficos estáticos o el uso en vivo de la consola de R.
+
+.footnote[
+[1] Doi, J., Potter, G., Wong, J., Xie, Y. & McPherson, J. (2018). Web application teaching tools for statistics using R and *Shiny*. *Technology Innovations in Statistics Eduaction*, 9 (1)
+]
+
+---
+class: top, left
+
+# ¿Qué es la Estadística Bayesiana?
+
+- La Estadística Bayesiana es una rama de la Estadística, la cual se diferencia de la Estadística Frecuentista en que toma los parámetros de las distribuciones como variables aleatorias, en lugar de constantes
+
+--
+
+- Presenta un cambio de paradigma en la forma de estudiar la Estadística por lo que, en el curso de Teoría Estadística del Bachillerato en Estadística de la UCR, el último tema del curso es sobre la Estadística Bayesiana
+
+--
+
+- Históricamente los estudiantes de este curso han tenido problemas con este tema ya que implica una forma de pensar radicalmente distinto a lo que se ve en los temas anteriores del curso y la mayor parte de los cursos de la carrera
+
+--
+
+- Por lo anterior, en el primer semestre del 2018 se implementó en este curso un proyecto para la creación de aplicaciones en Shiny con temas relacionados a la Estadística Bayesiana, con el fin de facilitar la comprensión de estos conceptos por parte de los estudiantes
+
+---
+class: inverse, center, middle
+
+# 2. Experiencia en el aula
+
+---
+class: left, top
+
+# Objetivos de aprendizaje
+
+Los objetivos de aprendizaje que guiaron la actividad fueron:
+
+--
+
+1. Diseñar la aplicación según el contexto del material (estadística Bayesiana); lo cual exige un conocimiento sólido de los principios teóricos básicos de esta materia
+
+2. Escribir el código y asegurarse que la aplicación funciona; lo cual necesita de un conocimiento sólido del lenguaje R
+
+3. Utilizar el producto final, para de esta forma asegurarse que las aplicaciones puedan ser utilizadas en otros cursos para facilitar la enseñanza de conceptos Bayesianos
+
+--
+
+Mediante lo anterior el estudiante puede repasar temas vistos en clase y generar productos que ayuden a otros estudiantes en la comprensión de la materia
+
+---
+class: top, left
+
+# Descripción de la dinámica
+
+- Se crearon grupos de entre 5 y 7 personas para el desarrollo de una aplicación *Shiny* que tuviera relación con la materia vista sobre Estadística Bayesiana
+
+--
+
+- El tiempo total de la actividad fue de 2 semanas, desde el día de la asignación del proyecto hasta la presentación en clase de los resultados
+
+--
+
+- Los materiales entregados fueron el código para la aplicación además de un archivo que contenía las instrucciones de uso para la aplicación
+
+--
+
+- Dado que no todos los estudiantes conocían o habían trabajado activamente con *Shiny*, se realizaron algunos talleres y sesiones de preguntas y respuestas, además de un seguimiento de los temas seleccionados, para poder ayudar a aquellos estudiantes que tuvieran problemas con los temas teóricos o la implementación en R
+
+---
+class: top, left
+
+# Descripción de la dinámica
+
+- Las presentaciones fueron evaluadas por la profesora y el asistente del curso, junto con otro estudiante escogido aleatoriamente. Además, los estudiantes calificaron, de forma anónima, el trabajo de los demás miembros de su grupo. Aun asi, no se hizo una evaluación concreta sobre la percepción de los estudiantes sobre la actividad como tal.
+
+--
+
+- El día de la presentación, cada grupo hacía entrega de los materiales y realizaba una pequeña demostración en vivo de la aplicación, para verificar que esta sirviera y para explicar como funcionaba
+
+--
+
+- Cada grupo tenía un total de 10 minutos para hacer las presentaciones, seguido por un espacio para preguntas tanto por parte de los estudiantes como de los evaluadores
+
+---
+class: inverse, center, middle
+
+# 3. Demostración de aplicaciones
+
+---
+class: center, middle
+
+### Las aplicaciones se encuentran disponibles en el enlace https://lquiros.shinyapps.io/AplicacionesBayes/
+
+### Veamos como funcionan algunas de estas...
+
+---
+class: inverse, center, middle
+
+# 4. Conclusiones y recomendaciones
+
+---
+class: top, left
+
+# Conclusiones
+
+- El ejercicio fue recibido con entusiasmo por los estudiantes, ya que se trataba de algo nuevo e interactivo que no se hace en muchos otros cursos
+
+--
+
+- Algunos grupos tuvieron dificultades con el manejo de R y de Shiny, que se debe a la falta de enfásis en los primeros cursos de la carrera sobre estas herramientas
+
+--
+
+- Por último, algunos grupos se dedicaron más en la construcción de la herramienta que en el repaso y comprensión de los conceptos de fondo, lo cual hace que el objetivo de la actividad sea distinto al obtenido por los estudiantes
+
+---
+class: top, left
+
+# Recomendaciones
+
+- Tener una evaluación más formal sobre la actividad, para no recurrir a las evaluaciones escritas (como los examenes, tareas y quices tradicionales) para obtener retroalimentación por parte de los estudiantes
+
+--
+
+- Se deben dar más talleres sobre *Shiny* desde que inicia el curso para que, las personas interesadas, puedan prepararse de forma efectiva y con tiempo para la realización de la activdad
+
+--
+
+- Por último, se podrían realizar evaluaciones antes y después de realizar la actividad, para poder medir el impacto de la realización de la actividad sobre la comprensión de la materia por parte de los estudiantes
+
+---
+class: inverse, center, middle
+
+# ¡Muchas gracias!
+
+# ¿Preguntas?
