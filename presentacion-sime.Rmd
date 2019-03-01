@@ -210,3 +210,6 @@ class: inverse, center, middle
 # ¡Muchas gracias!
 
 # ¿Preguntas?
+
+ Encuentre esta presentación en:  
+ https://bit.ly/2Em54sK
