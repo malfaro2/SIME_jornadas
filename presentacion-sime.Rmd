@@ -1,7 +1,7 @@
 ---
 title: "Uso de <i>Shiny</i> apps como apoyo para la enseñanza de la estadística Bayesiana"
-subtitle: "SIME 2019"
-author: "Andrés Arguedas, Luis Diego Quirós, Marcela Alfaro Córdoba"
+subtitle: "XIV Jornadas de Análisis Estadístico de Datos 2019"
+author: "Luis Diego Quirós, Andrés Arguedas, Marcela Alfaro Córdoba"
 date: "1/2/2019"
 output:
   xaringan::moon_reader:
@@ -109,7 +109,7 @@ class: left, top
 
 # Objetivos de aprendizaje
 
-Los objetivos de aprendizaje que guiaron la actividad fueron:
+Los objetivos de aprendizaje que guiaron la actividad de carácter exploratorio fueron:
 
 --
 
@@ -117,7 +117,7 @@ Los objetivos de aprendizaje que guiaron la actividad fueron:
 
 2. Escribir el código y asegurarse que la aplicación funciona; lo cual necesita de un conocimiento sólido del lenguaje R
 
-3. Utilizar el producto final, para de esta forma asegurarse que las aplicaciones puedan ser utilizadas en otros cursos para facilitar la enseñanza de conceptos Bayesianos
+3. Utilizar el producto final (pruebas de usuario), y de esta forma asegurarse que las aplicaciones puedan ser utilizadas en otros cursos para facilitar la enseñanza de conceptos Bayesianos
 
 --
 
@@ -198,11 +198,11 @@ class: top, left
 
 --
 
-- Se deben dar más talleres sobre *Shiny* desde que inicia el curso para que, las personas interesadas, puedan prepararse de forma efectiva y con tiempo para la realización de la activdad
+- Se deben dar más talleres sobre *Shiny* desde que inicia el curso para que, las personas interesadas, puedan prepararse de forma efectiva y con tiempo para la realización de la actividad. Otra opción es tomar las aplicaciones del año pasado y darlas a este nuevo grupo para hacer mejoras.
 
 --
 
-- Por último, se podrían realizar evaluaciones antes y después de realizar la actividad, para poder medir el impacto de la realización de la actividad sobre la comprensión de la materia por parte de los estudiantes
+- Por último, se podría hacer la evaluación antes y después de realizar la actividad, para poder medir su impacto sobre la comprensión de la materia por parte de los estudiantes
 
 ---
 class: inverse, center, middle
