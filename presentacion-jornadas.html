@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Estrategias didácticas para la enseñanza de la estadística a nivel universitario</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Marcela Alfaro Córdoba, Edwin Chaves" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <link href="libs/datatables-css/datatables-crosstalk.css" rel="stylesheet" />
+    <script src="libs/datatables-binding/datatables.js"></script>
+    <link href="libs/dt-core/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="libs/dt-core/css/jquery.dataTables.extra.css" rel="stylesheet" />
+    <script src="libs/dt-core/js/jquery.dataTables.min.js"></script>
+    <link href="libs/crosstalk/css/crosstalk.css" rel="stylesheet" />
+    <script src="libs/crosstalk/js/crosstalk.min.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Estrategias didácticas para la enseñanza de la estadística a nivel universitario
+## XIV Jornadas de Análisis Estadístico de Datos 2019
+### Marcela Alfaro Córdoba, Edwin Chaves
+### 27/3/2019
+
+---
+
+class: center, middle
+
+Proyecto de Investigación B8356
+
+![](http://www.estadistica.ucr.ac.cr/images/EEST/Logos/Escuela-con-UCR.png)
+
+
+
+---
+class: left, top
+
+# Índice
+
+## 1. Introducción
+
+--
+
+## 2. Estadística como disciplina
+
+--
+
+## 3. Estrategias Didácticas
+
+--
+
+## 4. Conclusiones
+
+
+---
+class: inverse, center, middle
+
+# 1. Introducción
+
+---
+background-image: url(https://s3.amazonaws.com/libapps/accounts/24504/images/education.jpg)
+background-size: 400px
+background-position: 50% 70%
+
+# Contexto
+
+Proyecto exploratorio que busca investigar e identificar estrategias didácticas que puedan desarrollarse para contribuir con la enseñanza de la estadística y la probabilidad en Costa Rica, y que estén acordes con las nuevas tendencias internacionales, pero que se adecúen con la realidad institucional y nacional.
+
+---
+
+# Objetivos 
+
+1. Revisión bibliográfica.
+
+2. Recolección de información y programas de cursos de: 
+  * UCR: Estadística General I (XS0276) y II (XS0277) 
+  * ITCR 1: Análisis Estadístico I (PI-2603) y II (PI-3604)
+  * ITCR 2: Estadística I (AE-2505) y II (AE-2506)
+  * UNA: Estadística (I ECO-408), II (ECO-411) y III (ECO-416)
+
+3. Entrevistas a profundidad y grupos focales en el que participen profesores que imparten los cursos afines a Estadística General y que sean los medulares en la formación en las Universidades estatales de Costa Rica.
+
+4. Propuesta didáctica, basada en la revisión bibliográfica y los resultados de las entrevistas.
+
+---
+
+# Objetivos 
+
+1. **Revisión bibliográfica.**
+
+2. **Recolección de información** y programas de cursos de:
+  * UCR: Estadística General I (XS0276) y II (XS0277) 
+  * ITCR 1: Análisis Estadístico I (PI-2603) y II (PI-3604)
+  * ITCR 2: Estadística I (AE-2505) y II (AE-2506)
+  * UNA: Estadística (I ECO-408), II (ECO-411) y III (ECO-416)
+
+3. Entrevistas a profundidad y grupos focales en el que participen profesores que imparten los cursos afines a Estadística General y que sean los medulares en la formación en las Universidades estatales de Costa Rica.
+
+4. Propuesta didáctica, basada en la revisión bibliográfica y los resultados de las entrevistas.
+
+
+---
+
+class: center, middle
+
+# Este reporte
+
+## Tiene como objetivo describir los hallazgos de la revisión bibliográfica, combinados con la revisión parcial de los programas de cursos de estadística general.
+
+
+---
+
+class: inverse, center, middle
+
+# 2. Estadística como disciplina
+
+---
+
+# ¿Qué es la estadística?
+
+Davidian y Louis &lt;sup&gt;1&lt;/sup&gt; definen la estadística como "la ciencia de aprender de los datos, y de medir, controlar y comunicar la incertidumbre".
+
+Chambers &lt;sup&gt;2&lt;/sup&gt;, separa la definición de la estadística en general y específica:
+
+  * General: todo aquello relativo a aprender de datos, estadística computacional para la educación, investigación y comunicación. 
+  * Específica: desarrollo de metodología estadística (investigación en estadística).
+  
+Programas de estadística general de CONARE se adecúan a la primera dimensión de la definición de Chambers, y agregan conceptos de probabilidad que ayuden a entender los conceptos estadísticos.
+
+.footnote[
+[1] Davidian, M., Louis, TA. (2012). Why Statistics?. Science. Apr 6;336(6077):12. doi: 10.1126/science.1218685. 
+
+[2] Chambers, J. M. (1993).  Greater or lesser statistics: a choice for future research.Statistics and Computing, 3(4):182–184.
+]
+
+---
+
+# [Paréntesis] ¿Y la ciencia de datos?
+
+
+
+<div id="htmlwidget-baf87601f9658e45b123" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-baf87601f9658e45b123">{"x":{"filter":"none","autoHideNavigation":true,"data":[["1","2","3","4","5","6"],["Exploración, preparación y recolección de datos","Representación y transformación de datos","Computación con datos","Modelaje de datos","Visualización y presentación de datos","Ciencia acerca de la ciencia de datos"],["Conceptos básicos de estadística, distribución de frecuencias, probabilidades","Números relativos, medidas y de posición y variabilidad","","Estimación, contraste de hipótesis, análisis de variancia, correlación y regresión","Presentación de la información",""]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Ciencia de Datos<\/th>\n      <th>Estadística General<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"paging":false,"info":false,"order":[],"autoWidth":false,"orderClasses":false,"columnDefs":[{"orderable":false,"targets":0}]}},"evals":[],"jsHooks":[]}</script>
+
+Contenidos para ciencia de datos listados por Donoho (2017) y contenidos listados para los cursos de estadística general según CONARE (2011).
+
+---
+
+# Contexto costarricense que no podemos obviar:
+
+  * Hay más estudiantes interesados en estadística como carrera.
+  
+  * El currículo de secundaria del MEP ya incluye estadística.
+  
+  * Disponibilidad de todo tipo de datos, y de nuevas maneras de recolectar datos masivamente.
+  
+  * El auge de la ciencia de datos a nivel nacional.
+  
+  * Más y mejor tecnología disponible.
+  
+  * Surgimiento de otros medios de enseñanza en línea.
+  
+  * Necesidad de actualización del curriculum de estadística introductoria.
+  
+
+---
+class: inverse, center, middle
+
+# 3. Estrategias didácticas
+
+---
+class: top, left
+
+# Estrategias didácticas
+
+Las recomendaciones de la guía **GAISE** (*Guidelines for Assessment  and  Instruction  in  Statistics  Education*, 2018 &lt;sup&gt;3&lt;/sup&gt;) publicada por la *American Statistical Association* (ASA), pueden resumirse en:
+
+  * Enseñar pensamiento estadístico.
+
+--
+
+  * Enfocar esfuerzos al entendimiento de conceptos, y menos a la memorización de fórmulas.
+
+--
+
+  * Integrar datos reales con un contexto y un fin.
+
+--
+
+  * Fomentar  el  aprendizaje  activo  y  utilizar  tecnología  para  explorar  conceptos  y analizar datos.
+ 
+--
+
+  * Utilizar evaluaciones como retroalimentación para mejorar el aprendizaje del estudiantado.
+
+--
+
+.footnote[
+[3] Wood, B. L., Mocko, M., Everson, M., Horton, N. J., and Velleman, P. (2018).Updated guidelines, updated curriculum: The GAISE college report and introductory statistics for the modern student. CHANCE, 31(2):53–59.
+]
+
+---
+class: top, left
+
+# Enseñar pensamiento estadístico
+
+Gal &lt;sup&gt;4&lt;/sup&gt; define el pensamiento estadístico (o *statistical literacy* en inglés) como el concepto  de  “desarrollar habilidades  para  comprender,  interpretar  y evaluar  criticamente mensajes  que  incluyan  elementos  y  argumentos  estadísticos  en  la  prensa,  o  en  cualquier otra fuente”
+
+Chance &lt;sup&gt;5&lt;/sup&gt; delimita seis acciones que pueden ayudar al estudiantado a desarrollar estas habilidades: (1) entender el proceso estadístico como un todo, (2) siempre ser escéptico, (3) pensar en todas las variables envueltas, (4) siempre relacionar los datos con el contexto, (5) entender (y creer) en la relevancia de la estadística, y por último, (6) pensar más allá del libro de texto.
+
+.footnote[
+[4] Gal, I. (2003).  Teaching for statistical literacy and services of statistics agencies.The American Statistician, 57(2):80–84.
+
+[5] Chance,  B.  L.  (2002).   Components  of  statistical  thinking  and  implications  forinstruction and assessment. Journal of Statistics Education, 10(3).
+]
+---
+class: top, left
+
+# Entendimiento de conceptos
+
+Losconceptos estadísticos a los que esta sección se refiere son aleatoriedad, variabilidad, medidas de posición, distribución de frecuencias, entre otros.
+
+Wood &lt;sup&gt;6&lt;/sup&gt; argumenta que “estudiantes con una base conceptual sólida de un curso introductorio, estarán muy bien preparados para estudiar técnicas estadísticas adicionales en un segundo curso”.
+
+Uso de la tecnología es fundamental para poder “dejar el énfasis en procesamiento de datos que tienen las clases introductorias y darnos el lujo de enfocarnos en el proceso estadístico que precede los cálculos y la interpretación de esos resultados”.
+
+.footnote[
+[6] Wood, B. L., Mocko, M., Everson, M., Horton, N. J., and Velleman, P. (2018).Updated guidelines, updated curriculum: The GAISE college report and introductory statistics for the modern student. CHANCE, 31(2):53–59.
+]
+
+---
+
+class: left, top
+
+# Integrar datos reales con un contexto y un fin
+
+Batanaro [1] para probabilidad y Garfield [15] para estadística o Berry [3] para estadística Bayesiana. 
+
+Los hallazgos en este caso coinciden en que, si bien es cierto que el contexto y el objetivo del análisis de los datos son importantes para que el estudiantado se sienta atraído y motivado, el medio tecnológico de análisis debe ser simple, para no perder de  vista los objetivos  de  análisis.  
+
+El  uso  de applets  o  de  herramientas interactivas como las que provee el paquete Shiny puede facilitar bastante la discusión e interpretación de resultados como lo muestra Fawcett [12], Williams [22] y Doi [10].
+
+---
+class: left, top
+
+# Fomentar  el  aprendizaje  activo  
+
+El aprendizaje activo lo define Paul [21] como “actividades instructivas que involucran al estudiante para que realice actividades mientras piensa en lo que está haciendo”.
+
+En este punto, varios autores como Kvam [17] y Weltman [21] argumentan que, si bienes  cierto  el  aprendizaje  activo  ayuda  a  los  estudiantes  con  un  promedio  por  debajo de  la  media  a  mejorar  su  desempeño, no  hace  lo  mismo  con  los  estudiantes  con  un desempeño superior. Froelich [13] contradice los estudios anteriores y elabora una guía del material didáctico para actividades en clase que involucren aprendizaje activo.
+
+El uso de la tecnología en este punto es vital. Chance [6] recomienda utilizar simulaciones como herramienta de aprendizaje en clases introductorias.
+
+
+---
+
+class: left, top
+
+# Utilizar evaluaciones como retroalimentación para mejorar el aprendizaje del estudiantado
+
+La  ASA  [23]  recomienda  en  este  caso  utilizar  cada  una  de  esas  actividades  no como fin, sino como vehículo para mejorar el aprendizaje. 
+
+Un aspecto importante en este  caso  es  el  uso  de  asignaciones  abiertas  como  ensayos,  debates  o  reporte  crítico de  un  artículo,  en  los  cuales  la  clase  tenga  la  oportunidad  de  pensar  en  preguntas filosóficas  o  de  interpretación,  para  mejorar  sus  habilidades  de  pensamiento  crítico.
+
+Es  importante  resaltar  en  este  punto  que  la  discusión  de  las  formas  de  evaluación genera mucha controversia entre investigadores, ocasionado por el carácter sumativo que tradicionalmente se le ha dado a la evaluación y no tanto a lo formativo que se plantea acá.
+
+---
+class: center, middle
+
+# Uso de la tecnología
+
+Común denominador en todas las recomendaciones anteriores. 
+
+Pregunta de interés para la siguiente etapa: 
+
+## ¿Cuáles son las habilidades del educador(a) y sus actitudes hacia el rol de la tecnología?
+
+---
+class: inverse, center, middle
+
+# 4. Conclusiones
+
+---
+
+class: left, top
+
+# Plan de trabajo
+
+![Plan de trabajo](plan.png)
+
+---
+class: inverse, center, middle
+
+# ¡Muchas gracias!
+
+# ¿Preguntas?
+
+Encuentre esta presentación en:  
+ https://bit.ly/
+ 
+También puede consultar el informe parcial con las referencias completas en: http://hdl.handle.net/10669/76713
+
+![](https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by.png)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
