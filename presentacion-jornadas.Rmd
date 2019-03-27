@@ -299,7 +299,7 @@ class: inverse, center, middle
 # ¿Preguntas?
 
 Encuentre esta presentación en:  
- https://bit.ly/
+ https://bit.ly/2I1XEhA
  
 También puede consultar el informe parcial con las referencias completas en: http://hdl.handle.net/10669/76713
 
